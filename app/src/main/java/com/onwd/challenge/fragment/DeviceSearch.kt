@@ -27,6 +27,7 @@ import android.util.Log
 
 public class DeviceSearch: Fragment(), CellClickListener {
 //Fixed issue
+    //test
     private val deviceInteractor: DeviceInteractorStub?=null
     private var selectedDeviceItem : ItemsViewModel?=null
     lateinit var button_search : View
