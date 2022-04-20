@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ONWD Coding Assignment</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="close_button">Close</string>
+    <string name="desc_device_battery">Device Battery Image</string>
+    <string name="desc_device">Device  Image</string>
+
+    <string name="desc_device_serial">Device Serial</string>
+    <string name="desc_device_firmware">Device  Firmware</string>
+    <string name="desc_mdevice">Device</string>
+    <string name="desc_status">Status</string>
+
+    <string name="desc_toast">Research Device or Tap on Item</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Device"></style>
+
+    <style name="Device.Button" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="cornerRadius">32dp</item>
+        <item name="backgroundTint">@color/red</item>
+        <item name="android:padding">12dp</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceSmallComponent</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="iconTint">?attr/colorOnPrimary</item>
+        <item name="android:minWidth">180dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="rippleColor">@color/red_dark</item>
+    </style>
+
+    <style name="Device.Button.Accent">
+        <item name="backgroundTint">@color/light_gray</item>
+        <item name="strokeColor">@color/red</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+        <item name="iconTint">?attr/colorOnSecondary</item>
+    </style>
+
+    <style name="Device.Button.AccentRed">
+        <item name="backgroundTint">@color/red</item>
+        <item name="strokeColor">@color/red</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="iconTint">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="MyCardView" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialCardView.Cut</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay.MaterialCardView.Cut" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">20dp</item>
+        <item name="cornerSizeTopLeft">20dp</item>
+        <item name="cornerSizeBottomRight">20dp</item>
+        <item name="cornerSizeBottomLeft">20dp</item>
+    </style>
+
+    <style name="FullScreenDialogStyle">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+</resources>
