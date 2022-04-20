@@ -9,6 +9,7 @@ Thank you for taking the time to take on this assignment. In this assignment, yo
 3. Open, selecting a device and pressing open navigates to the 'Device Details' view
 4. Device Details, the 'Device Details' view should show the details of the previously selected device
 5. Navigate back, navigating back to the first view, and the first view should show the search results and previously made selection
+6. Test
 
 ### Requirements
 - Try to make the screens look as close as possible to the provided mock-ups
